@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 180px;
+
+  color: black;
+}
+
+.logo {
+  text-transform: uppercase;
+
+  font-size: 15px;
+
+  font-weight: bold;
+}
+
+.logo:hover {
+  color: gray;
+
+  transition: 0.5s;
+
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+
+  padding: 0px 250px;
+
+  list-style-type: none;
+}
+
+.links {
+  padding: 0px 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.links:hover {
+  color: gray;
+
+  transition: 0.5s;
+
+  cursor: pointer;
+}
+
+.elements {
+  display: flex;
+}
+
+.element {
+  padding: 0px 7px;
+}
+
+.element:hover {
+  color: gray;
+
+  transition: 0.5s;
+
+  cursor: pointer;
+}
