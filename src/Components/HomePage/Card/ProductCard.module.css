@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 250px;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.container div img:hover {
+  opacity: 80%;
+
+  transition: 0.5s;
+}
+
+.logo {
+  width: 250px;
+}
+
+.desc {
+  width: 200px;
+
+  font-size: 13px;
+
+  padding: 10px 0px 0px 0px;
+
+  text-align: center;
+}
+
+.price {
+  width: 250px;
+
+  font-size: 14px;
+
+  padding: 5px 0px 15px 0px;
+
+  text-align: center;
+}
